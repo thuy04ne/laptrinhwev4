@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="DANHSACH.CSS">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url(flower.jpg);
+            background-repeat: no-repeat;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .pagination-container {
+    background-color: white;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Thêm dòng này d? can gi?a theo chi?u d?c */
+    margin-top: 15px;
+}
+
+.pagination {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Hi?n th? các ph?n t? theo chi?u ngang */
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #007bff;
+    border-radius: 5px;
+    border: 1px solid #007bff;
+}
+
+.pagination a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pagination a.last-link {
+    text-decoration: none;
+}
+
+.pagination li:last-child {
+    margin-left: auto;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #0056b3;
+}
+
+.button:hover {
+    background-color: #007bff;
+}
+
+        .button {
+            text-decoration: none;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: #0056b3;
+        }
+
+        .button:hover {
+            background-color: #007bff;
+        }
+
+        .cot1 {
+            border: 2px solid black;
+            padding: 10px 80px 10px 80px;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .cot2 {
+            border: 2px solid black;
+            padding: 10px 80px 10px 80px;
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        TABLE {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        TH, TD {
+            border: 1px solid black;
+            padding: 15px;
+            text-align: center;
+        }
+
+        TH {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .pagination-container {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <table class="cot1">
+        <tr>
+            <td>Home|</td>
+            <td>Ðang Nh?p|</td>
+            <td>Ðang Ký</td>
+        </tr>
+    </table>
+    <TABLE>
+        <TR>
+            <TH>#</TH>
+            <TH>Username</TH>
+            <th>Email</th>
+            <th>Thao tác </th>
+        </TR>
+        <tr>
+            <th>1</th>
+            <tH>UPVH</tH>
+            <th>ATGW@Gmail.com</th>
+            <th>edit view delete </th>
+        </tr>
+        <tr>
+    <th>2</th>
+    <tH>IFUK</tH>
+    <th>KULB@Gmail.com</th>
+    <th>edit view delete </th>
+</tr>
+<tr>
+    <th>3</th>
+    <tH>DZZQ</tH>
+    <th>ERNB@Gmail.com</th>
+    <th>edit view delete </th>
+</tr>
+<tr>
+    <th>4</th>
+    <tH>NJII</tH>
+    <th>GOIF@Gmail.com</th>
+    <th>edit view delete </th>
+</tr>
+<tr>
+    <th>5</th>
+    <tH>YUMG</tH>
+    <th>KITG@Gmail.com</th>
+    <th>edit view delete </th>
+</tr>
+<tr>
+    <th>6</th>
+    <tH>WZSU</tH>
+    <th>CVTL@Gmail.com</th>
+    <th>edit view delete </th>
+</tr>
+<tr>
+    <th>7</th>
+    <tH>WXSQ</tH>
+    <th>MIUZ@Gmail.com</th>
+    <th>edit view delete </th>
+</tr>
+<tr>
+    <th>8</th>
+    <tH>XZOR</tH>
+    <th>YZNV@Gmail.com</th>
+    <th>edit view delete </th>
+</tr>
+<tr>
+    <th>9</th>
+    <tH>HGGO</tH>
+    <th>OIIX@Gmail.com</th>
+    <th>edit view delete </th>
+</tr>
+<tr>
+    <th>10</th>
+    <tH>PXZX</tH>
+    <th>YSML@Gmail.com</th>
+    <th>edit view delete </th>
+</tr>
+    </TABLE>
+    <div class="pagination-container">
+        <ul class="pagination">
+            <li><a href="#">Previous</a></li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#" class="last-link">3</a></li>
+            <li><a href="#">Next</a></li>
+        </ul>
+    </div>
+    <table class="cot2">
+        <tr>
+            <td>L?p trình Web @1/2024</td>
+        </tr>
+    </table>
+</body>
+</html>
+
