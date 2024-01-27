@@ -1,0 +1,41 @@
+							
+  <!DOCTYPE html>							
+    <html lang="en-US">							
+        <head>						
+ <head>						
+  <body>						
+                                                            
+<form method="POST">						
+ <div class="row">					
+ <label>S? a</label>				
+  <input type="text" name="so_a">				
+</div>					
+                                                            
+<div class="row">					
+<label>S? b</label>				
+ <input type="text" name="so_b">				
+</div>					
+                                                            
+<div class="row">					
+<button type="submit" name="tinh_ti´ch_hai_sô´">Tính tô?ng</button>	
+</form>
+
+ </body>			
+<?php
+
+function dthcn($a, $b) {
+    return $a * $b;
+}
+if (dthcn  is_n ){
+
+} 
+else{
+    $x is_number(abc)== false
+}
+ $x = ''; empty($x) == true
+?>
+
+						
+                                                            
+                                                            
+                                                            
