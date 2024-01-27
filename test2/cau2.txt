@@ -1,0 +1,17 @@
+php
+
+$arr = [15, 25, 5, 7, 9, 4, 8, 10, 15];
+
+$sochan = [];
+$sole = [];
+foreach ($arr as $num) {
+    if ($num % 2 == 0) {
+        $sochan[] = $num;
+    } else {
+        $sole[] = $num;
+    }
+}
+rsort($sochan);
+$resultArr = array_merge($sole, $sochan);
+print_r($resultArr);
+
