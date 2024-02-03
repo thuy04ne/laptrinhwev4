@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lap Trinh Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="lap 7b.css">
+</head>
+<style>
+    body {
+        background-image: url(flower.jpg);
+        background-repeat: no-repeat;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    #wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+    }
+
+    caption {
+        border: 2px solid rgb(145, 73, 124);
+        border-bottom: none;
+        padding-top: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        padding-bottom: none;
+        background-color: rgb(255, 255, 255);
+    }
+
+    table {
+        border: 2px solid rgb(169, 36, 131);
+        padding: 40px 40px;
+        border-top: none;
+        font-size: 20px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .cot1 {
+        border: 2px solid black;
+        padding: 10px 80px 10px 80px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .cot2 {
+        border: 2px solid black;
+        padding: 10px 80px 10px 80px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #input {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: px;
+    }
+
+    #input td {
+        padding-left: 100px;
+    }
+
+    #dangnhap {
+        list-style: none;
+        display: flex;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(59, 26, 244);
+        color: white;
+    }
+
+    #qmk {
+        border: none;
+        color: blue;
+        background-color: white;
+        padding-right: 30px;
+    }
+
+    .input2 {
+        float: right;
+        margin-right: 30px;
+    }
+
+    #Nhaplai_1 {
+        font-size: 20px;
+        padding: 5px 10px;
+        margin: 0px 10px;
+        color: black;
+        background-color: rgb(249, 249, 249);
+    }
+
+    .input1 {
+        display: flex;
+        padding-bottom: 20px;
+    }
+
+    .input1 td {
+        padding-right: 30px;
+        margin: auto;
+    }
+
+    .input_hoten {
+        width: 280px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    i {
+        padding: 5px;
+    }
+</style>
+<body>
+    <table class="cot1">
+        <tr>
+            <td>Home|</td>
+            <td>Ðang Nh?p|</td>
+            <td>Ðang Ký</td>
+        </tr>
+    </table>
+    <form id="wrapper" action="list.php" method="post">
+        <table>
+            <caption>Màn hình dang kí</caption>
+            <td colspan="2">
+                <tr class="input1">
+                    <td>Username</td> 
+                    <td colspan="2"><input class="input_hoten" type="text" name="srmFname"></td>
+                </tr>
+                <tr class="input1">
+                    <td>M?t kh?u  </td>
+                    <td colspan="2"><input class="input_hoten" type="text" name="srmFname"></td>
+                </tr>
+                <tr class="input1">
+                    <td>Nh?p l?i <br> m?t kh?u</td> 
+                    <td colspan="2"><input class="input_hoten" type="text" name="srmFname"></td>
+                </tr>
+                <tr class="input1">
+                    <td>Email</td>
+                    <td colspan="2"><input class="input_hoten" type="text" name="srmFname"></td>
+                </tr>
+                <tr class="input2">
+                    <td>
+                        <button type="submit" id="qmk">Ðã có tài kho?n</button>
+                    </td>
+                    <td>
+                        <button type="submit" id="dangnhap">Ðang Kí</button>
+                    </td>
+                </tr>
+            </td>
+        </table>
+    </form>
+    <table class="cot2">
+        <tr>
+            <td>L?p trình Web @1/2024</td>
+        </tr>
+    </table>
+</body>
+</html>
